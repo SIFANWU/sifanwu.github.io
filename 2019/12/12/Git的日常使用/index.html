@@ -23,7 +23,7 @@
 <meta property="og:site_name" content="JimWu&#39;s Blog">
 <meta property="og:description" content="Git的日常使用1. 删除已经上传到远程库的文件  git rm -r –cached dir_name &amp;nbsp; 删除已经提交的文件或者文件夹 git commit -m ‘Delte someone file’ git push    2. 删除本地分支  git branch -d &amp;lt;BranchName&amp;gt; &amp;nbsp; 指定分支名称   3. 删除远程分支  git pus">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-12-12T05:00:06.656Z">
+<meta property="og:updated_time" content="2020-01-14T05:51:58.178Z">
 <meta name="twitter:card" content="summary">
 
   
@@ -232,7 +232,7 @@ ga('send', 'pageview');
 </blockquote>
 <h3 id="4-创建本地分支并切换到新的分支"><a href="#4-创建本地分支并切换到新的分支" class="headerlink" title="4. 创建本地分支并切换到新的分支"></a>4. 创建本地分支并切换到新的分支</h3><blockquote>
 <ul>
-<li>git push origin &lt;BranchName&gt;:&lt;BranchName&gt; &nbsp;  <em>可使用与本地分支相同的名字</em></li>
+<li>git pull origin &lt;BranchName&gt;:&lt;BranchName&gt; &nbsp;  <em>可使用与本地分支相同的名字</em></li>
 </ul>
 </blockquote>
 <h3 id="5-拉取特定远程分支内容"><a href="#5-拉取特定远程分支内容" class="headerlink" title="5. 拉取特定远程分支内容"></a>5. 拉取特定远程分支内容</h3><blockquote>
@@ -257,7 +257,7 @@ ga('send', 'pageview');
 <p>设置远程跟踪 :</p>
 </blockquote>
 </li>
-<li>git branch –set-upstream-to=origin/&lt;RemoteName&gt; &lt;BranchName&gt; &nbsp;   <em>设置本地分支&lt;BranchName&gt;跟踪origin&lt;RemoteName&gt;远程分支</em></li>
+<li>git branch –set-upstream-to=origin/&lt;RemoteName&gt; &lt;BranchName&gt; &nbsp;<br>跟踪:&lt;BranchName&gt; &nbsp;&nbsp; 远程分支:origin&lt;RemoteName&gt;</li>
 </ul>
 </blockquote>
 <h3 id="8-选择一个commit-合并进当前分支"><a href="#8-选择一个commit-合并进当前分支" class="headerlink" title="8. 选择一个commit,合并进当前分支"></a>8. 选择一个commit,合并进当前分支</h3><blockquote>
